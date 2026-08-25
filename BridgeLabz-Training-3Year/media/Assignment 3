@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Assignment</title>
+</head>
+<body>
+
+<h1>HTML Assignment</h1>
+<p><b>Name:</b> Harsh Vardhan</p>
+
+<hr>
+
+<!-- 1. Resume -->
+<h2>1. Resume</h2>
+<header>
+    <h3>Harsh Vardhan</h3>
+    <p>Email: singhharshvardhan1011@gmail.com | Phone: 8126265720</p>
+</header>
+<nav>
+    <a href="#about">About</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#education">Education</a>
+</nav>
+
+<section id="about">
+    <h3>About Me</h3>
+    <p>I am a B.Tech CSE student interested in programming and web development.</p>
+</section>
+
+<section id="skills">
+    <h3>Skills</h3>
+    <ul>
+        <li>Java</li><li>Python</li><li>HTML</li><li>SQL</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h3>Projects</h3>
+    <ol>
+        <li>Student Management System</li>
+        <li>Portfolio Website</li>
+    </ol>
+</section>
+
+<section id="education">
+    <h3>Education</h3>
+    <table border="1">
+        <tr><th>Course</th><th>Institute</th><th>Year</th></tr>
+        <tr><td>B.Tech CSE</td><td>GLA University</td><td>2025-Present</td></tr>
+        <tr><td>Class XII</td><td>Gayatri Public School</td><td>2023</td></tr>
+    </table>
+</section>
+
+<footer>&copy; 2026 Harsh Vardhan</footer>
+
+<hr>
+
+<!-- 2. Product Catalog -->
+<h2>2. Product Catalog</h2>
+<table border="1">
+    <tr><th>Product</th><th>Image</th><th>Description</th><th>Price</th><th>Availability</th></tr>
+    <tr>
+        <td>Laptop</td>
+        <td><img src="https://via.placeholder.com/60" alt="Laptop"></td>
+        <td>Student Laptop</td><td>₹55000</td><td rowspan="2">In Stock</td>
+    </tr>
+    <tr>
+        <td>Phone</td>
+        <td><img src="https://via.placeholder.com/60" alt="Phone"></td>
+        <td>Smart Phone</td><td>₹25000</td>
+    </tr>
+    <tr><td colspan="4">Total Products</td><td>2</td></tr>
+</table>
+
+<hr>
+
+<!-- 3. Course Registration -->
+<h2>3. Course Registration</h2>
+<form>
+    <fieldset>
+        <legend>Student Details</legend>
+        Name: <input type="Harsh Vardhan"><br><br>
+        Email: <input type="singhharshvardhan1011@gmail.com"><br><br>
+        Course:
+        <select>
+            <option selected>Java</option>
+            <option>Python</option>
+            <option>Web Development</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Register">
+    </fieldset>
+</form>
+
+<table border="1">
+    <tr><th>Day</th><th>Time</th><th>Instructor</th></tr>
+    <tr><td>Monday</td><td>10 AM</td><td>Mr. Sharma</td></tr>
+    <tr><td>Wednesday</td><td>2 PM</td><td>Ms. Verma</td></tr>
+</table>
+
+<hr>
+
+<!-- 4. Company -->
+<h2>4. Company Layout</h2>
+<header><h3>TechNova Solutions</h3></header>
+<nav>Home | About | Services | Contact</nav>
+<main>
+    <section>
+        <h3>About Company</h3>
+        <p>TechNova provides modern technology solutions.</p>
+    </section>
+    <section>
+        <h3>Services</h3>
+        <ul><li>Web Development</li><li>App Development</li><li>Cloud Services</li></ul>
+    </section>
+</main>
+<aside>
+    <blockquote>"Innovation creates success."</blockquote>
+    <p>- CEO</p>
+</aside>
+<footer>contact@technova.com | Mathura, India</footer>
+
+<hr>
+
+<!-- 5. Nested List -->
+<h2>5. University Hierarchy</h2>
+<ul>
+    <li>University
+        <ul>
+            <li>CSE
+                <ul>
+                    <li>B.Tech
+                        <ol>
+                            <li>Programming</li>
+                            <li>Database</li>
+                            <li>Operating System</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li>ECE
+                <ul>
+                    <li>B.Tech
+                        <ol><li>Electronics</li><li>Microprocessor</li></ol>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<hr>
+
+<!-- 6. Restaurant -->
+<h2>6. Restaurant Menu</h2>
+<header><h3>Food Palace</h3></header>
+<nav>Starters | Main Course | Desserts</nav>
+
+<section>
+    <h3>Starters</h3>
+    <table border="1">
+        <tr><th>Dish</th><th>Description</th><th>Price</th></tr>
+        <tr><td>Paneer Tikka</td><td>Grilled Paneer</td><td>₹220</td></tr>
+    </table>
+</section>
+
+<section>
+    <h3>Main Course</h3>
+    <table border="1">
+        <tr><th>Dish</th><th>Description</th><th>Price</th></tr>
+        <tr><td>Biryani</td><td>Veg Biryani</td><td>₹240</td></tr>
+    </table>
+</section>
+
+<section>
+    <h3>Desserts</h3>
+    <table border="1">
+        <tr><th>Dish</th><th>Description</th><th>Price</th></tr>
+        <tr><td>Gulab Jamun</td><td>Sweet Dish</td><td>₹100</td></tr>
+    </table>
+</section>
+
+<footer>Contact: 9876543210</footer>
+
+<hr>
+
+<!-- 7. Conference -->
+<h2>7. Conference Schedule</h2>
+<table border="1">
+    <thead>
+        <tr><th>Session</th><th>Time</th><th>Topic</th><th>Speaker</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>Morning</td><td>9 AM</td><td>AI</td><td>Raj Sharma</td></tr>
+        <tr><td>Afternoon</td><td>2 PM</td><td>Cyber Security</td><td>Amit Kumar</td></tr>
+        <tr><td>Evening</td><td>6 PM</td><td>Future Tech</td><td>Priya Gupta</td></tr>
+    </tbody>
+    <tfoot>
+        <tr><td colspan="4">Conference Ends at 7 PM</td></tr>
+    </tfoot>
+</table>
+
+<hr>
+
+<!-- 8. Student Report -->
+<h2>8. Student Report</h2>
+<h3 title="School Name">ABC School</h3>
+<table border="1">
+    <tr>
+        <th rowspan="2">Name</th>
+        <th colspan="5">Marks</th>
+    </tr>
+    <tr><th>English</th><th>Math</th><th>Science</th><th>Computer</th><th>Social Science</th></tr>
+    <tr><td>Harsh</td><td>85</td><td>92</td><td>88</td><td>95</td><td>82</td></tr>
+    <tr><td colspan="4">Total</td><td colspan="2">442/500</td></tr>
+    <tr><td colspan="4">Percentage</td><td colspan="2">88.4%</td></tr>
+</table>
+
+<hr>
+
+<!-- 9. Travel -->
+<h2>9. Top 3 Travel Destinations</h2>
+<main>
+    <article>
+        <h3>Paris</h3>
+        <img src="https://via.placeholder.com/100" alt="Paris">
+        <p>Famous for Eiffel Tower and museums.</p>
+        <blockquote>Beautiful city.</blockquote>
+    </article>
+
+    <article>
+        <h3>Dubai</h3>
+        <img src="https://via.placeholder.com/100" alt="Dubai">
+        <p>Famous for modern buildings and shopping.</p>
+        <blockquote>Amazing destination.</blockquote>
+    </article>
+
+    <article>
+        <h3>Tokyo</h3>
+        <img src="https://via.placeholder.com/100" alt="Tokyo">
+        <p>Mix of tradition and technology.</p>
+        <blockquote>Wonderful city.</blockquote>
+    </article>
+</main>
+
+<aside>
+    <h3>Travel Tips</h3>
+    <ul><li>Carry documents</li><li>Respect local culture</li><li>Stay safe</li></ul>
+</aside>
+
+<footer>&copy; 2026 Travel Guide</footer>
+
+<hr>
+
+<!-- 10. Dropdown -->
+<h2>10. Dropdown Selection</h2>
+
+Country:
+<select>
+    <option selected>India</option><option>USA</option><option>Japan</option>
+</select>
+
+<br><br>
+
+State:
+<select>
+    <option selected>Uttar Pradesh</option><option>Delhi</option><option>Rajasthan</option>
+</select>
+
+<br><br>
+
+City:
+<select>
+    <option selected>Mathura</option><option>Agra</option><option>Lucknow</option>
+</select>
+
+<br><br>
+
+Favorite Tourist Place:
+<select>
+    <option selected>Taj Mahal</option><option>Red Fort</option><option>Qutub Minar</option>
+</select>
+
+<p>My choice is India, Uttar Pradesh, Mathura and Taj Mahal.</p>
+
+<hr>
+
+<!-- 11. News -->
+<h2>11. News Layout</h2>
+<header><h3>Daily News</h3></header>
+<nav>Sports | Technology | Politics</nav>
+
+<main>
+    <article>
+        <h3>India Wins Cricket Match</h3>
+        <time datetime="2026-08-19">19 August 2026</time>
+        <p>India won an important cricket match.</p>
+        <a href="https://www.espncricinfo.com/">Source</a>
+    </article>
+
+    <article>
+        <h3>New AI Technology</h3>
+        <time datetime="2026-08-18">18 August 2026</time>
+        <p>AI is transforming modern industries.</p>
+        <a href="https://techcrunch.com/">Source</a>
+    </article>
+
+    <article>
+        <h3>New Technology Initiative</h3>
+        <time datetime="2026-08-17">17 August 2026</time>
+        <p>New digital education initiatives were announced.</p>
+        <a href="https://www.pib.gov.in/">Source</a>
+    </article>
+</main>
+
+<aside>
+    <h3>Popular Topics</h3>
+    <ul><li>AI</li><li>Sports</li><li>Technology</li></ul>
+</aside>
+
+<footer>Contact: news@example.com</footer>
+
+<hr>
+
+<!-- 12. Quotes -->
+<h2>12. Quotation Showcase</h2>
+
+<section>
+    <h3>Albert Einstein</h3>
+    <blockquote>Life is like riding a bicycle. Keep moving.</blockquote>
+    <cite>Albert Einstein</cite>
+</section>
+
+<section>
+    <h3>Steve Jobs</h3>
+    <blockquote>The only way to do great work is to love what you do.</blockquote>
+    <cite>Steve Jobs</cite>
+</section>
+
+<section>
+    <h3>Nelson Mandela</h3>
+    <blockquote>It always seems impossible until it's done.</blockquote>
+    <cite>Nelson Mandela</cite>
+</section>
+
+<p>Quotes inspire people by providing motivation and wisdom.</p>
+
+<hr>
+
+<!-- 13. Blog -->
+<h2>13. Blog Layout</h2>
+
+<header><h3>Harsh's Blog</h3></header>
+
+<nav>
+    Home | Blogs | About
+</nav>
+
+<main>
+    <article>
+        <h3>My First Blog</h3>
+        <time datetime="2026-08-19">19 August 2026</time>
+        <p>This is my first blog about learning HTML.</p>
+        <blockquote>Every expert was once a beginner.</blockquote>
+    </article>
+
+    <article>
+        <h3>Things I Learned This Week</h3>
+        <time datetime="2026-08-18">18 August 2026</time>
+        <p>I learned HTML tables, forms, lists and semantic tags.</p>
+        <blockquote>Learning never stops.</blockquote>
+    </article>
+</main>
+
+<footer>Written by Harsh Vardhan</footer>
+
+<hr>
+
+<!-- 14. Movie Database -->
+<h2>14. Movie Database</h2>
+
+<table border="1">
+    <caption><b>Popular Movies</b></caption>
+
+    <tr>
+        <th>Movie</th><th>Genre</th><th>Year</th><th>IMDB</th><th>Link</th>
+    </tr>
+
+    <tr>
+        <td title="Movie Name">Inception</td>
+        <td>Sci-Fi</td><td>2010</td><td>8.8</td>
+        <td><a href="https://www.imdb.com/title/tt1375666/">IMDB</a></td>
+    </tr>
+
+    <tr>
+        <td>Interstellar</td>
+        <td>Sci-Fi</td><td>2014</td><td>8.7</td>
+        <td><a href="https://www.imdb.com/title/tt0816692/">IMDB</a></td>
+    </tr>
+
+    <tr>
+        <td colspan="5">More movies coming soon.</td>
+    </tr>
+</table>
+
+<small>Note: IMDB ratings may change.</small>
+
+<hr>
+
+<!-- 15. Portfolio -->
+<h2>15. Portfolio</h2>
+
+<header>
+    <h3>Harsh Vardhan</h3>
+    <p>B.Tech CSE Student | Programmer</p>
+</header>
+
+<nav>
+    <a href="#pabout">About</a> |
+    <a href="#pskills">Skills</a> |
+    <a href="#pprojects">Projects</a>
+</nav>
+
+<main>
+
+    <section id="pabout">
+        <h3>About Me</h3>
+        <p>I am a Computer Science student interested in programming and technology.</p>
+        <blockquote>Success comes from continuous learning.</blockquote>
+    </section>
+
+    <section id="pskills">
+        <h3>Skills</h3>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+
+    <section id="pprojects">
+        <h3>Projects</h3>
+        <ol>
+            <li>Student Management System</li>
+            <li>Sports Data Management System</li>
+            <li>Portfolio Website</li>
+        </ol>
+    </section>
+
+</main>
+
+<aside>
+    <h3>Contact Info</h3>
+    <p>Email: singhharshvardhan1011@gmail.com</p>
+    <p>Phone: 8126265720</p>
+    <p>
+        <a href="https://www.linkedin.com/in/harsh-vardhan-172524326/">LinkedIn</a>
+    </p>
+</aside>
+
+<footer>
+    &copy; 2026 Harsh Vardhan
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(230, 198, 173);
+}
+h1 {
+    color: rgb(128, 94, 0);
+}
+p {
+    font-size: 30px;
+}
+p{
+    font-family: verdana;
+    font-size: 20px;
+}
+p{
+    background-color: rgb(187, 0, 255);
+}
+.box{
+    width: 600px;
+    height: 100px;
+    background-color: lightblue;
+    border: 5px solid rgb(250, 4, 4);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
